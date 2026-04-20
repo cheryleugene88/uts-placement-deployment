@@ -46,7 +46,7 @@ def load_models():
     try:
         # Ganti string di bawah dengan nama file model .pkl Anda yang sebenarnya
         # Contoh: "best_placement_clf_Random_Forest.pkl"
-        clf_model = joblib.load("best_placement_clf_Random_Forest.pkl") 
+        clf_model = joblib.load("best_placement_clf_Decision_Tree.pkl") 
         reg_model = joblib.load("best_salary_reg_Random_Forest_Reg.pkl")
         return clf_model, reg_model
     except Exception as e:
